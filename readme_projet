@@ -1,0 +1,59 @@
+# Full-Stack JavaScript (JetBrains & AWS)
+J'ai réalisé ce projet dans le cadre du cours **Full-Stack JavaScript for Beginners** (JetBrains & AWS).  
+L’objectif est de faire une app web complète (backend + frontend) avec **Node.js / Express** et **React**, incluant un **chat temps réel** avec une **authentification** des utilisateurs.
+## Objectifs du projet
+- Implémenter un **backend Node.js / Express** (API REST, WebSockets).
+- Utiliser **SQLite** pour la base de données.
+- Mettre en place une **authentification** sécurisée.
+- Gérer en **temps réel** avec **Socket.IO**.
+- Développer un **frontend React** moderne (routing, UI, API).
+- Ajouter des **tests Jest** backend + frontend.
+- Déployer la solution **dans AWS**.
+## Fonctionnalités principales
+- Inscription / connexion utilisateur (hash + JWT).
+- Stockage des utilisateurs et messages dans SQLite.
+- Chat en temps réel (Socket.IO).
+- API REST pour utilisateurs et messages.
+- Interface React:
+  - Login / Signup(Se connecter / s'inscrire)
+  - Chat Live
+  - Navigation avec React Router
+
+**Backend**
+- Node.js  
+- SQLite
+- Socket.IO 
+
+**Frontend**
+- React
+
+## Architecture
+Le projet est composé de deux parties:
+### Backend (Node.js / Express)
+- API REST (auth, messages, users)
+- Base SQLite
+- WebSockets pour le chat en direct (Socket.IO)
+- JWT pour la sécurité
+### Frontend (React)
+- Interface utilisateur
+- Consommation de l’API backend via Axios
+- WebSockets client: mise à jour en direct du chat
+- Routing (login, register, chat)
+Un dossier `utils` permet de centraliser des fonctions partagées entre plusieurs parties du projet.
+
+## Tests
+Le projet inclut une configuration Jest multi-projets:
+- **Tests React** (environnement `jsdom`)
+- **Tests backend** (environnement `node`)
+- **Supertest** pour tester les routes Express
+Pour les exécuter:
+npm test
+## Déploiement dans AWS
+J’ai déployé l’application dans AWS en séparant le backend et le frontend.  
+Le déploiement met automatiquement en place toutes les ressources nécessaires:
+- **Backend Node.js / Express** hébergé sur AWS (API REST + Socket.IO)
+- **Frontend React** déployé comme app
+- **VPC + Subnets + Security Groups** pour le réseau et la sécurité
+- **CloudWatch Logs** pour le suivi et le monitoring du backend
+Le backend expose les routes API et le serveur WebSocket, tandis que le frontend s’y connecte pour l’authentification et le chat en temps réel.  
+L’environnement AWS pour le projet est entièrement fonctionnel et toutes les communications (HTTP + WebSockets) ont été validées après déploiement.
