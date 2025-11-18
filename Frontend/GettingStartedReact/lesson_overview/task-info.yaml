@@ -1,0 +1,47 @@
+type: theory
+custom_name: Lesson overview
+files:
+  - name: frontend/src/App.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/index.html
+    visible: true
+    learner_created: false
+  - name: frontend/src/assets/academy.svg
+    visible: true
+    learner_created: false
+  - name: frontend/src/main.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/index.css
+    visible: true
+    learner_created: false
+  - name: frontend/package.json
+    visible: true
+    learner_created: false
+  - name: frontend/vite.config.js
+    visible: true
+    learner_created: false
+  - name: images/run_dark.svg
+    visible: false
+    learner_created: false
+  - name: images/run.svg
+    visible: false
+    learner_created: false
+  - name: images/stop_dark.svg
+    visible: false
+    learner_created: false
+  - name: images/stop.svg
+    visible: false
+    learner_created: false
+  - name: images/vite_start_log_dark.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: images/vite_start_log.png
+    visible: false
+    is_binary: true
+    learner_created: false
+status: Solved
+record: -1
+post_submission_on_open: true

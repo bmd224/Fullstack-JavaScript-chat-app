@@ -1,0 +1,11 @@
+{
+  "name": "educational-app",
+  "version": "1.0.0",
+  "description": "Backend and educational frontend demo",
+  "scripts": {
+    "start": "concurrently \"cd backend && npm start\" \"cd frontend && npm start\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}

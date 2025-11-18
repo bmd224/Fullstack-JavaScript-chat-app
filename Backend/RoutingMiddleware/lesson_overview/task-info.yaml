@@ -1,0 +1,17 @@
+type: theory
+custom_name: Lesson overview
+files:
+  - name: backend/src/index.js
+    visible: true
+    learner_created: false
+  - name: images/routers.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: images/routers_dark.png
+    visible: false
+    is_binary: true
+    learner_created: false
+status: Solved
+record: 8
+post_submission_on_open: true

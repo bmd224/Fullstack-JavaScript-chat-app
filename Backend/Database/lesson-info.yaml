@@ -1,0 +1,6 @@
+type: framework
+content:
+  - lesson_overview
+  - database_integration
+  - a_look_inside_the_database
+current_task: 2

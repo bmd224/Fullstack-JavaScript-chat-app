@@ -1,0 +1,46 @@
+type: edu
+custom_name: New route handler
+files:
+  - name: test/test.js
+    visible: false
+    learner_created: false
+  - name: src/index.js
+    visible: true
+    placeholders:
+      - offset: 220
+        length: 18
+        placeholder_text: /* check if url is /sum */
+        initial_state:
+          length: 26
+          offset: 220
+        initialized_from_dependency: false
+        encrypted_possible_answer: xDjbwcESXc5v85Vbk9S2X05kYfO8QorHCKYTO8smyGE=
+        selected: false
+        status: Solved
+      - offset: 250
+        length: 97
+        placeholder_text: /* Handle this request */
+        initial_state:
+          length: 25
+          offset: 258
+        initialized_from_dependency: false
+        encrypted_possible_answer: cD9CWYybKPc5SKIM8JRJdeZXVafbMIbUi7s7VI231WAJ6YAb8SL0PEGa0xPdtnBxX8Il+VUH+Wp1C87h6X8OJg6tvqFnxa+lq0aF5BrLVA/z+G3ZoQxGl5jIWbfrk1Ww
+        selected: true
+        status: Solved
+    learner_created: false
+  - name: package.json
+    visible: true
+    learner_created: false
+  - name: images/scheme.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: images/scheme_dark.png
+    visible: false
+    is_binary: true
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 14 Nov 2025 08:28:38 UTC"
+record: -1

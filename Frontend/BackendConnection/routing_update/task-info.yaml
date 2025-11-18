@@ -1,0 +1,306 @@
+type: edu
+custom_name: Routing update
+files:
+  - name: frontend/src/App.jsx
+    visible: true
+    placeholders:
+      - offset: 328
+        length: 333
+        placeholder_text: // set the isAuthenticated variable
+        initial_state:
+          length: 35
+          offset: 328
+        initialized_from_dependency: false
+        encrypted_possible_answer: FGHL4kb1qpwvklMtVRHO20E5ydN9R6Oy4aIdQNpw2G34htCMBl9W2gfC3s3NwM88iTswAng37DUGabiAxdylEa8PUjJ9gCdLT5B/oeYr5TiwrqVz67CkB2x18qL8UE5rLJEuVxJrrHNW2CjJ/e8dqQ==
+        selected: true
+        status: Solved
+        student_answer: |-
+          // Check if a token exists in localStorage on page load
+                  const token = localStorage.getItem('token');
+                  if (token) {
+                      setIsAuthenticated(true);  // user stays logged in
+                  } else {
+                      setIsAuthenticated(false); // ensure logout if token missing
+                  }
+              }, []); // runs ONLY on first render
+    learner_created: false
+  - name: frontend/src/pages/Login.jsx
+    visible: true
+    placeholders:
+      - offset: 535
+        length: 218
+        placeholder_text: // make POST request to the '/api/auth/login' route
+        dependency:
+          section: Frontend
+          lesson: BackendConnection
+          task: login_form
+          file: frontend/src/pages/Login.jsx
+          placeholder: 1
+        initial_state:
+          length: 51
+          offset: 535
+        initialized_from_dependency: true
+        encrypted_possible_answer: KQRaDljVsoh5jV+clkzGMTugFg2fw0t8ayq3kCdIpZIxtHsAUwZD1SoLl4573nxNAMEM9dEFwROlZFgK+S1LUQ==
+        selected: false
+        status: Solved
+        student_answer: |-
+          // POST request to the '/api/auth/login' route
+                      const response = await axios.post('/api/auth/login', {
+                          username: formData.username,
+                          password: formData.password
+                      });
+        is_visible: false
+      - offset: 766
+        length: 118
+        placeholder_text: // save the token in localStorage with the key 'token'
+        dependency:
+          section: Frontend
+          lesson: BackendConnection
+          task: login_form
+          file: frontend/src/pages/Login.jsx
+          placeholder: 2
+        initial_state:
+          length: 54
+          offset: 599
+        initialized_from_dependency: true
+        encrypted_possible_answer: TdK60K8SQCb2ScEByV8MYMtJ3epoZUwJmrHFGth4F2LTGcAm0vCWoQBiigy489u6e/xrqj2oEZix1kcLT3lHZw==
+        selected: false
+        status: Solved
+        student_answer: |-
+          // save the token in localStorage with the key 'token'
+                      localStorage.setItem('token', response.data.token);
+        is_visible: false
+      - offset: 1651
+        length: 23
+        placeholder_text: // add the onChange action handler
+        dependency:
+          section: Frontend
+          lesson: BackendConnection
+          task: login_form
+          file: frontend/src/pages/Login.jsx
+          placeholder: 3
+        initial_state:
+          length: 34
+          offset: 1420
+        initialized_from_dependency: true
+        encrypted_possible_answer: 0TlzuPzSWtNtto8qKV/T7KCnoswL5tb4+z1yCqvT8hA=
+        selected: false
+        status: Solved
+        student_answer: "onChange={handleChange}"
+        is_visible: false
+      - offset: 2125
+        length: 23
+        placeholder_text: // add the onChange action handler
+        dependency:
+          section: Frontend
+          lesson: BackendConnection
+          task: login_form
+          file: frontend/src/pages/Login.jsx
+          placeholder: 4
+        initial_state:
+          length: 34
+          offset: 1905
+        initialized_from_dependency: true
+        encrypted_possible_answer: 0TlzuPzSWtNtto8qKV/T7KCnoswL5tb4+z1yCqvT8hA=
+        selected: false
+        status: Solved
+        student_answer: "onChange={handleChange}"
+        is_visible: false
+    learner_created: false
+  - name: frontend/src/pages/Register.jsx
+    visible: true
+    placeholders:
+      - offset: 617
+        length: 46
+        placeholder_text: /* check passwords for inequality */
+        dependency:
+          section: Frontend
+          lesson: BackendConnection
+          task: login_form
+          file: frontend/src/pages/Register.jsx
+          placeholder: 1
+        initial_state:
+          length: 36
+          offset: 617
+        initialized_from_dependency: true
+        encrypted_possible_answer: YIVDR67a2LxzpRxFBD8VTEFnn0NxRE8I+2XnGCUi7efJIe99mQvxP+OYo1yqYZOa
+        selected: false
+        status: Solved
+        student_answer: formData.password !== formData.confirmPassword
+        is_visible: false
+      - offset: 772
+        length: 208
+        placeholder_text: // make a request to the backend
+        dependency:
+          section: Frontend
+          lesson: BackendConnection
+          task: login_form
+          file: frontend/src/pages/Register.jsx
+          placeholder: 2
+        initial_state:
+          length: 32
+          offset: 762
+        initialized_from_dependency: true
+        encrypted_possible_answer: KQRaDljVsoh5jV+clkzGMTugFg2fw0t8ayq3kCdIpZLiTqxox8zpyxrwcZrkUhSx3fSebi+XBn9sjknJ7PiygOs4kCjCRhUmYfoxJXnilFROS8Re4WiMKoD9Ve8Mrcbeg4U9cksadROzHbNsIfzE9AGzPRLoV5mB4jNvcxWRMqGvlPU3N2glw+Sizz9mrndjigkScUbE6QnWXjTal6eOtOnjBuPKJOS7OcxSMD+4nq8=
+        selected: false
+        status: Solved
+        student_answer: |-
+          // make a request to the backend
+                      const response = await axios.post('/api/auth/register', {
+                          username: formData.username,
+                          password: formData.password,
+                      });
+        is_visible: false
+      - offset: 994
+        length: 34
+        placeholder_text: // save token to the local storage
+        dependency:
+          section: Frontend
+          lesson: BackendConnection
+          task: login_form
+          file: frontend/src/pages/Register.jsx
+          placeholder: 3
+        initial_state:
+          length: 34
+          offset: 808
+        initialized_from_dependency: true
+        encrypted_possible_answer: TdK60K8SQCb2ScEByV8MYMtJ3epoZUwJmrHFGth4F2LTGcAm0vCWoQBiigy489u6e/xrqj2oEZix1kcLT3lHZw==
+        selected: false
+        status: Solved
+        student_answer: // save token to the local storage
+        is_visible: false
+      - offset: 1707
+        length: 23
+        placeholder_text: // add a handler for the onChange action
+        dependency:
+          section: Frontend
+          lesson: BackendConnection
+          task: login_form
+          file: frontend/src/pages/Register.jsx
+          placeholder: 4
+        initial_state:
+          length: 40
+          offset: 1521
+        initialized_from_dependency: true
+        encrypted_possible_answer: 0TlzuPzSWtNtto8qKV/T7KCnoswL5tb4+z1yCqvT8hA=
+        selected: false
+        status: Solved
+        student_answer: "onChange={handleChange}"
+        is_visible: false
+    learner_created: false
+  - name: backend/src/data/dbConfig.js
+    visible: true
+    learner_created: false
+  - name: backend/src/data/dataServices.js
+    visible: true
+    learner_created: false
+  - name: backend/src/routes/auth.js
+    visible: true
+    learner_created: false
+  - name: backend/src/routes/messages.js
+    visible: true
+    learner_created: false
+  - name: backend/src/index.js
+    visible: true
+    learner_created: false
+  - name: backend/src/socket.js
+    visible: true
+    learner_created: false
+  - name: backend/src/middleware/auth.js
+    visible: true
+    learner_created: false
+  - name: backend/scripts/generateSecret.js
+    visible: true
+    learner_created: false
+  - name: backend/__tests__/auth.test.js
+    visible: true
+    learner_created: false
+  - name: backend/__tests__/socket.test.js
+    visible: true
+    learner_created: false
+  - name: backend/__tests__/messages.test.js
+    visible: true
+    learner_created: false
+  - name: backend/__tests__/dataServices.test.js
+    visible: true
+    learner_created: false
+  - name: backend/package.json
+    visible: true
+    learner_created: false
+  - name: backend/jest.setup.js
+    visible: true
+    learner_created: false
+  - name: frontend/src/pages/Chat.jsx
+    visible: true
+    placeholders:
+      - offset: 72
+        length: 85
+        placeholder_text: // delete the token from the `localStorage`
+        initial_state:
+          length: 43
+          offset: 72
+        initialized_from_dependency: false
+        encrypted_possible_answer: AVFbUt0PiUOeOBBpslfDKr8gi0y7uQRlD/B6RhJdCgxLxDTAuSvr9MUn2XzUkQGQ
+        selected: true
+        status: Solved
+        student_answer: |-
+          // delete the token from the `localStorage`
+                  localStorage.removeItem('token');
+    learner_created: false
+  - name: frontend/src/assets/academy.svg
+    visible: true
+    learner_created: false
+  - name: frontend/src/main.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/index.css
+    visible: true
+    learner_created: false
+  - name: frontend/__tests__/register_test.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/index.html
+    visible: true
+    learner_created: false
+  - name: frontend/package.json
+    visible: true
+    learner_created: false
+  - name: frontend/vite.config.js
+    visible: true
+    learner_created: false
+  - name: package.json
+    visible: true
+    learner_created: false
+  - name: frontend/__tests__/login_test.jsx
+    visible: true
+    learner_created: false
+  - name: images/login.gif
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: images/register.gif
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: test/test.jsx
+    visible: false
+    learner_created: false
+  - name: backend/database.sqlite
+    visible: true
+    is_binary: true
+    learner_created: false
+  - name: frontend/__tests__/token_test.jsx
+    visible: true
+    learner_created: false
+  - name: backend/.env
+    visible: true
+    learner_created: false
+  - name: images/refresh.gif
+    visible: false
+    is_binary: true
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 14 Nov 2025 22:24:16 UTC"
+record: 19

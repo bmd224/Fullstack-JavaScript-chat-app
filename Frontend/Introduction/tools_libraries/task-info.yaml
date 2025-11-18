@@ -1,0 +1,15 @@
+type: theory
+custom_name: Tools and libraries
+files:
+  - name: task.js
+    visible: true
+    learner_created: false
+  - name: images/react.svg
+    visible: false
+    learner_created: false
+  - name: images/vite.svg
+    visible: false
+    learner_created: false
+status: Solved
+record: -1
+post_submission_on_open: true

@@ -1,0 +1,90 @@
+type: edu
+custom_name: Writing tests
+files:
+  - name: backend/__tests__/concat.test.js
+    visible: true
+    placeholders:
+      - offset: 301
+        length: 220
+        placeholder_text: return expect(true).toBe(false);
+        initial_state:
+          length: 32
+          offset: 301
+        initialized_from_dependency: false
+        encrypted_possible_answer: DaE34o6fa4/c1Z2uWuPj8c63CseHYJ1Axll+0APz9MZGOzeGqcxTRthE8RlVqTMeet1Kt+wAQmahx8E9SzhBkIKIw6UglFZxgg8UAbaqsP9k7gkXGBFboH06SqABP7B+ULBfv6y/YZX/z4tFvUNoH4tmSDg53f7xgoCCYydWfGxQGbafCV2M3HYCHwkckZP6z+2EwP/yQJJCUNaAQ9YQwgCpqVkFLdPF874gQ1801YKjPNBu0jl30yVUZkfMAE4utDQ6fvTA8hfcVO5FW6bteOJqouTzGG2FaP23aLi3gmQ=
+        selected: true
+        status: Solved
+      - offset: 613
+        length: 212
+        placeholder_text: return expect(true).toBe(false);
+        initial_state:
+          length: 32
+          offset: 425
+        initialized_from_dependency: false
+        encrypted_possible_answer: DaE34o6fa4/c1Z2uWuPj8c63CseHYJ1Axll+0APz9Maz9LMeMMTeXFB9JOUSUwIiJuShnJolzPSOd3l9z6/5G5JXDIJIm7D4+bDtLfR3py4rerRZTLHfSNrwiz7MjCia5Zhgpe1OWbevGbYopopxWNekiqzOB2FQzd5F7IWXSV4FVeUZFBSaP3m86f9nKrWTQgHH72Ltmb9kkD5Dvdaj8V8VRBNpwgyZHGS5BOZmjzxLJTya9ZFaUGf7qZPsTjDcNXKFKAKGAN/U5xkwc0BqxEf4blKNpClWkLGKAIDkUPY=
+        selected: true
+        status: Solved
+      - offset: 933
+        length: 286
+        placeholder_text: return expect(true).toBe(false);
+        initial_state:
+          length: 32
+          offset: 565
+        initialized_from_dependency: false
+        encrypted_possible_answer: DaE34o6fa4/c1Z2uWuPj8c63CseHYJ1Axll+0APz9MZGOzeGqcxTRthE8RlVqTMeIoNzDLkNHnfMIxecFFnhVo72ZfFt0y0jLu12Sg/yvMW1OndSPKcKgdH9YTDmbZoPrnF9ldUtiZy6tvzn7DqMGXQRU4eo4jcE5Gd+cxRAS+fUbGVc3J2JqMXim48zXopuKoWIRJcuaSxsiE/eJxac9jpya7XFWZ0+FBRc2zLUOVQ1+5AX0AAmepGwFi//m/2ik3d1G8GKSrzquxUXsX1B87TruOQFKV3jPPRk3GNDXRAjFiVrUOeDkKxgMb1rWBmjiMeisIJuNzadhkClkpGTY8GLT24EmQEtZCXyoSCMYicBMILITLQ4ux3+pt1SVrAXl/cVcY5wkYZwXB40gZtmCQ==
+        selected: true
+        status: Solved
+    learner_created: false
+  - name: test/test.js
+    visible: false
+    learner_created: false
+  - name: backend/src/index.js
+    visible: true
+    learner_created: false
+  - name: backend/__tests__/sum.test.js
+    visible: true
+    learner_created: false
+  - name: backend/package.json
+    visible: true
+    learner_created: false
+  - name: frontend/src/App.css
+    visible: true
+    learner_created: false
+  - name: frontend/src/App.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/main.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/index.css
+    visible: true
+    learner_created: false
+  - name: frontend/src/components/Tile.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/components/SumCalculator.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/public/academy.svg
+    visible: true
+    learner_created: false
+  - name: frontend/index.html
+    visible: true
+    learner_created: false
+  - name: frontend/package.json
+    visible: true
+    learner_created: false
+  - name: frontend/vite.config.js
+    visible: true
+    learner_created: false
+  - name: package.json
+    visible: true
+    learner_created: false
+  - name: frontend/src/components/StrConcat.jsx
+    visible: true
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 14 Nov 2025 08:52:10 UTC"
+record: -1

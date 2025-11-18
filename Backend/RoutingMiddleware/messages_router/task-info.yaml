@@ -1,0 +1,219 @@
+type: edu
+custom_name: Messages router
+files:
+  - name: backend/src/routes/messages.js
+    visible: true
+    placeholders:
+      - offset: 200
+        length: 40
+        placeholder_text: // Get messages from the message service
+        initial_state:
+          length: 40
+          offset: 200
+        initialized_from_dependency: false
+        encrypted_possible_answer: RdFCZ4R2PHPlunU48bE/ps8o5f8Pz9kbZw07hKoHXXAEZBTwxnF9TIlSWzEt6t7GFnTvw/vnepiA5TRGhbGMXg==
+        selected: false
+        status: Solved
+        student_answer: // Get messages from the message service
+      - offset: 249
+        length: 696
+        placeholder_text: // Send them as a JSON-response
+        initial_state:
+          length: 31
+          offset: 249
+        initialized_from_dependency: false
+        encrypted_possible_answer: SmQiJiZbpqKwnNg06vzDyK3iOkoy+iF5hcU0xveTUcs=
+        selected: false
+        status: Solved
+        student_answer: |-
+          const messages = await messageService.getMessages();
+          
+                  // Send them as a JSON response
+                  return res.json(messages);
+              } catch (error) {
+                  return res.status(500).json({ message: 'Error fetching messages' });
+              }
+          });
+          
+          // Create a new message
+          router.post('/', async (req, res) => {
+              try {
+                  const username = req.body.username;
+                  // Get the content field from the request body
+                  const content = req.body.content;
+          
+                  if (!username) {
+                      return res.status(400).json({ message: 'Username is required' });
+                  }
+          
+                  // Check the content parameter
+                  if (!content) {
+                      return res.status(400).json({ message: 'Message conte
+      - offset: 1181
+        length: 46
+        placeholder_text: // Get the content field from the request body
+        initial_state:
+          length: 46
+          offset: 516
+        initialized_from_dependency: false
+        encrypted_possible_answer: r2dZRPYLQ74XpJr78+Ix7y0/NIV2VtUGZP+QIIkd0SwDs+01SiVbk6VxbkUt7lAF
+        selected: false
+        status: Solved
+        student_answer: |-
+          nt
+                  return res.status(201).json(message
+      - offset: 1351
+        length: 30
+        placeholder_text: // Check the content parameter
+        initial_state:
+          length: 30
+          offset: 686
+        initialized_from_dependency: false
+        encrypted_possible_answer: bIOdm/2wok3M1Tt1RqiVW6AVMsJbn++jkePiaoNeU9ZwAC98OxEvuEBmeRvzbkUxlttG2HpoEgXHZCEjdAHwNObabCOpmLqXc8nsgCO5eN9zZ3ka3xctl5+D7EPt3pPAqfkumg1RnpVAUjrGSRj7Eg==
+        selected: false
+        status: Solved
+        student_answer: |-
+          task
+          // Delete a message
+          route
+      - offset: 1391
+        length: 39
+        placeholder_text: // Add a message to the message service
+        initial_state:
+          length: 39
+          offset: 726
+        initialized_from_dependency: false
+        encrypted_possible_answer: oQVsGWQDRL3sHxn2yRObOQ2+YB0CFzZ5efkm8avLbS7qm2xDwRhA6AKxY7OCTsFydj59O8jl0x/U26O72kfENceAMys+RG4zpSq+eLu9hZU=
+        selected: false
+        status: Solved
+        student_answer: |
+          /:id', async (req, res) => {
+              try {
+      - offset: 1439
+        length: 57
+        placeholder_text: // Respond with the 201 code and a message as the content
+        initial_state:
+          length: 57
+          offset: 774
+        initialized_from_dependency: false
+        encrypted_possible_answer: u7gPomk4r2dLr8deeU+Gdy8vjSfXNfthA4iLA6VfUo9w/WXERgtqSeGNrF4c8Ilk
+        selected: false
+        status: Solved
+        student_answer: |-
+          / Get the message id from route params
+                  const { id
+      - offset: 1706
+        length: 21
+        placeholder_text: // Get the message id
+        initial_state:
+          length: 21
+          offset: 1041
+        initialized_from_dependency: false
+        encrypted_possible_answer: YeqhMCi5x99Nog1Timgj5MlOu/sTU6jyb/vpMNxeVYUEb07rf8yUmL7AvTdbg5d6
+        selected: false
+        status: Solved
+        student_answer: "ge otherwise.\n       "
+      - offset: 1736
+        length: 43
+        placeholder_text: // Delete the message using message service
+        initial_state:
+          length: 43
+          offset: 1071
+        initialized_from_dependency: false
+        encrypted_possible_answer: fuDhruZ3D+RNR48Lno8zpYjoTEMyqTwt+aUHATdm931BqvG+9BW+8X8wqvcxNarfK2NxuRo9/X5HkeGh8NEh7g==
+        selected: false
+        status: Solved
+        student_answer: |-
+          eted) {
+                      return res.status(404).
+      - offset: 1789
+        length: 80
+        placeholder_text: "// Respond with the 204 code on success, or 404 with an error\
+      \ message otherwise."
+        initial_state:
+          length: 80
+          offset: 1124
+        initialized_from_dependency: false
+        encrypted_possible_answer: eUC90iJb8jH8Lbz7xbLoOYOzcLY/Pr/+1/YaJbAI5Lez2VTyFo75ou0+ITN+lO17ruDkbZkYk9dz06J72I71geDiydKsavxizUzhcHQAP5fJwyk2rJJCmAxqfyWlDiqSmoLVeljEUe7jtEr4zQ5taysdeZAIsXtLXLibGxw1oIf8+TYBqtthvYdNjI5x8PH9
+        selected: false
+        status: Solved
+        student_answer: |
+          sage: 'Message not found' });
+                  }
+          
+                  return res.status(204).send();
+    learner_created: false
+  - name: images/routers.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: images/routers_dark.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: test/test.js
+    visible: false
+    learner_created: false
+  - name: backend/src/data/dataServices.js
+    visible: true
+    learner_created: false
+  - name: backend/__tests__/dataServices.test.js
+    visible: true
+    learner_created: false
+  - name: backend/package.json
+    visible: true
+    learner_created: false
+  - name: frontend/src/App.css
+    visible: true
+    learner_created: false
+  - name: frontend/src/App.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/main.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/index.css
+    visible: true
+    learner_created: false
+  - name: frontend/src/components/Tile.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/public/academy.svg
+    visible: true
+    learner_created: false
+  - name: frontend/index.html
+    visible: true
+    learner_created: false
+  - name: frontend/package.json
+    visible: true
+    learner_created: false
+  - name: frontend/vite.config.js
+    visible: true
+    learner_created: false
+  - name: package.json
+    visible: true
+    learner_created: false
+  - name: backend/src/index.js
+    visible: true
+    learner_created: false
+  - name: frontend/src/components/GetMessages.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/components/PostMessage.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/components/DeleteMessage.jsx
+    visible: true
+    learner_created: false
+  - name: images/messages.gif
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: backend/__tests__/messages.test.js
+    visible: true
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 14 Nov 2025 15:41:18 UTC"
+record: 9

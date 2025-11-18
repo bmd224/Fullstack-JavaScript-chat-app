@@ -1,0 +1,44 @@
+type: theory
+custom_name: Handling request parameters
+files:
+  - name: images/express_dark.svg
+    visible: false
+    learner_created: false
+  - name: images/express.svg
+    visible: false
+    learner_created: false
+  - name: backend/src/index.js
+    visible: true
+    learner_created: false
+  - name: backend/package.json
+    visible: true
+    learner_created: false
+  - name: images/run_dark.svg
+    visible: false
+    learner_created: false
+  - name: images/run.svg
+    visible: false
+    learner_created: false
+  - name: images/stop.svg
+    visible: false
+    learner_created: false
+  - name: images/stop_dark.svg
+    visible: false
+    learner_created: false
+  - name: images/rerun.svg
+    visible: false
+    learner_created: false
+  - name: images/rerun_dark.svg
+    visible: false
+    learner_created: false
+  - name: images/echo_dark.gif
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: images/echo.gif
+    visible: false
+    is_binary: true
+    learner_created: false
+status: Solved
+record: 3
+post_submission_on_open: true

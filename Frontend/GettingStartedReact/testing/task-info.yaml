@@ -1,0 +1,75 @@
+type: edu
+custom_name: Testing
+files:
+  - name: frontend/__tests__/echo_test.jsx
+    visible: true
+    learner_created: false
+  - name: test/test.jsx
+    visible: false
+    learner_created: false
+  - name: frontend/src/assets/academy.svg
+    visible: true
+    learner_created: false
+  - name: frontend/src/App.jsx
+    visible: true
+    placeholders:
+      - offset: 1096
+        length: 10
+        placeholder_text: inputValue.split("").join(" ")
+        initial_state:
+          length: 30
+          offset: 1096
+        initialized_from_dependency: false
+        encrypted_possible_answer: MKPxG8XAzYZCzS1Sf8DlkQ==
+        selected: false
+        status: Solved
+        is_visible: false
+    learner_created: false
+  - name: frontend/src/main.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/index.css
+    visible: true
+    learner_created: false
+  - name: frontend/index.html
+    visible: true
+    learner_created: false
+  - name: frontend/package.json
+    visible: true
+    learner_created: false
+  - name: frontend/vite.config.js
+    visible: true
+    learner_created: false
+  - name: images/run.svg
+    visible: false
+    learner_created: false
+  - name: images/runAll.svg
+    visible: false
+    learner_created: false
+  - name: images/strange.gif
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: images/run_dark.svg
+    visible: false
+    learner_created: false
+  - name: images/runError.svg
+    visible: false
+    learner_created: false
+  - name: images/runSuccess.svg
+    visible: false
+    learner_created: false
+  - name: images/runAll_dark.svg
+    visible: false
+    learner_created: false
+  - name: images/runError_dark.svg
+    visible: false
+    learner_created: false
+  - name: images/runSuccess_dark.svg
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 14 Nov 2025 20:36:29 UTC"
+record: -1

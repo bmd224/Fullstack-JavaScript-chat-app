@@ -1,0 +1,86 @@
+type: edu
+custom_name: Sum route implementation
+files:
+  - name: images/express_dark.svg
+    visible: false
+    learner_created: false
+  - name: images/express.svg
+    visible: false
+    learner_created: false
+  - name: backend/src/index.js
+    visible: true
+    placeholders:
+      - offset: 177
+        length: 682
+        placeholder_text: // Implement /sum route handler here
+        initial_state:
+          length: 36
+          offset: 177
+        initialized_from_dependency: false
+        encrypted_possible_answer: Mt05iYgVHLQGx05tv6pWzBWrEUNfQelccBXUGnX0Ri8AqGBW1fFnIspe0/rBfFTIkhPFRizgCCVjNXk/J7BimljJOXEJf1otY6XUgb4hem39WEA/J/f/pJoRnYLU16OsCUlYhGOOichJXv6/YSxB1g2vTENGm/nOPUwiIwKh7Fh8xifAARTZBJ5ODoQPcxpIT7gFzW00L5fdbP/8Tij4m0WaZXBDP00RU72Pg1eKpR5zyJozndy9u2VMOWQgx2VKnW1f63oc7f7mFWd0d1/rbbI+rwpMJrquifhxq+Vn9x5lxjXHukdCVkV7lewn7y9NHmZCR5HXGJTOTO/ry1dSiM5t7aZNFGYdH4tRUTiRCqX+lboC1XSaoxL1minLY2oabeatst8Qyf58YE17DRWL154oYAlEph1SwGSoRtcchSQ=
+        selected: true
+        status: Solved
+        student_answer: |
+          // Implement /sum route handler here
+          app.get('/sum', (req, res) => {
+              const { a, b } = req.query;
+          
+              // Check that both parameters exist
+              if (a === undefined || b === undefined) {
+                  return res.status(400).json({
+                      message: 'Invalid query parameters. Ensure "a" and "b" are numbers.'
+                  });
+              }
+          
+              const parsedA = Number(a);
+              const parsedB = Number(b);
+          
+              // Validate parameters
+              if (Number.isNaN(parsedA) || Number.isNaN(parsedB)) {
+                  return res.status(400).json({
+                      message: 'Invalid query parameters. Ensure "a" and "b" are numbers.'
+                  });
+              }
+          
+              const sum = parsedA + parsedB;
+          
+              return res.json({ sum });
+          });
+    learner_created: false
+  - name: backend/package.json
+    visible: true
+    learner_created: false
+  - name: images/run_dark.svg
+    visible: false
+    learner_created: false
+  - name: images/run.svg
+    visible: false
+    learner_created: false
+  - name: images/stop.svg
+    visible: false
+    learner_created: false
+  - name: images/stop_dark.svg
+    visible: false
+    learner_created: false
+  - name: images/rerun.svg
+    visible: false
+    learner_created: false
+  - name: images/rerun_dark.svg
+    visible: false
+    learner_created: false
+  - name: test/test.js
+    visible: false
+    learner_created: false
+  - name: images/echo.gif
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: images/echo_dark.gif
+    visible: false
+    is_binary: true
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 14 Nov 2025 08:37:15 UTC"
+record: 4

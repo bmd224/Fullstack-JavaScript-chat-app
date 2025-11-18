@@ -1,0 +1,7 @@
+custom_name: Testing and Debugging
+content:
+  - lesson_overview
+  - looking_at_the_test
+  - writing_tests
+  - middleware_concept
+  - logging

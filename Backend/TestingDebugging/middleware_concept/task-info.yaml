@@ -1,0 +1,54 @@
+type: theory
+custom_name: Middleware concept
+files:
+  - name: backend/src/index.js
+    visible: true
+    learner_created: false
+  - name: package.json
+    visible: true
+    learner_created: false
+  - name: frontend/src/App.css
+    visible: true
+    learner_created: false
+  - name: frontend/src/App.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/main.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/index.css
+    visible: true
+    learner_created: false
+  - name: frontend/src/components/Tile.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/components/StrConcat.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/components/SumCalculator.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/public/academy.svg
+    visible: true
+    learner_created: false
+  - name: frontend/index.html
+    visible: true
+    learner_created: false
+  - name: frontend/package.json
+    visible: true
+    learner_created: false
+  - name: frontend/vite.config.js
+    visible: true
+    learner_created: false
+  - name: backend/__tests__/sum.test.js
+    visible: true
+    learner_created: false
+  - name: backend/__tests__/concat.test.js
+    visible: true
+    learner_created: false
+  - name: backend/package.json
+    visible: true
+    learner_created: false
+status: Solved
+record: -1
+post_submission_on_open: true

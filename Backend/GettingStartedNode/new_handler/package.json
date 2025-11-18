@@ -1,0 +1,10 @@
+{
+  "name": "new-handler",
+  "version": "1.0.0",
+  "description": "Adding new handler task",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  }
+}

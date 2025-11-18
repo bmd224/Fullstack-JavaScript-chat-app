@@ -1,0 +1,542 @@
+type: edu
+custom_name: WebSockets authentication
+files:
+  - name: backend/src/middleware/auth.js
+    visible: true
+    placeholders:
+      - offset: 134
+        length: 47
+        placeholder_text: // Retrieve the JWT_SECRET environment variable
+        dependency:
+          section: Backend
+          lesson: Authentication
+          task: username_from_token
+          file: backend/src/middleware/auth.js
+          placeholder: 1
+        initial_state:
+          length: 47
+          offset: 134
+        initialized_from_dependency: false
+        encrypted_possible_answer: VoQkWZO4ZuVTyXoP+/wBfIGJoxNwx1kmtv25Eh+1xaRsIJtnMaB/YetlfTVAf6zg
+        selected: false
+        status: Solved
+        is_visible: false
+      - offset: 206
+        length: 47
+        placeholder_text: // Log message to help identify what went wrong
+        dependency:
+          section: Backend
+          lesson: Authentication
+          task: username_from_token
+          file: backend/src/middleware/auth.js
+          placeholder: 2
+        initial_state:
+          length: 47
+          offset: 206
+        initialized_from_dependency: false
+        encrypted_possible_answer: omBkGaAsXffTPnNBjvjuLy3FdEIL5cfvZmSGmH6Ng+2uOFeJAOuwGDneXtde+fL4Z4u+SaunGTqiMpvN3uL5y6aRVx5THI/6Rg0cEyU4Fgs=
+        selected: false
+        status: Solved
+        is_visible: false
+      - offset: 258
+        length: 39
+        placeholder_text: // Terminate the app with `1` exit code
+        dependency:
+          section: Backend
+          lesson: Authentication
+          task: username_from_token
+          file: backend/src/middleware/auth.js
+          placeholder: 3
+        initial_state:
+          length: 39
+          offset: 258
+        initialized_from_dependency: false
+        encrypted_possible_answer: 416AUQjdIPn18gkCWQFzjMazHQWHyN7vtA9eV1iT+8E=
+        selected: false
+        status: Solved
+        is_visible: false
+      - offset: 350
+        length: 62
+        placeholder_text: "// Generate and return the jwt token with `{username}` payload"
+        dependency:
+          section: Backend
+          lesson: Authentication
+          task: username_from_token
+          file: backend/src/middleware/auth.js
+          placeholder: 4
+        initial_state:
+          length: 62
+          offset: 350
+        initialized_from_dependency: false
+        encrypted_possible_answer: +mxRjgyMqTi40DBZmNtHNoJoud/8M4prEI1/yuGmyxT6N5xvnphHxwe5sRi62qYC
+        selected: false
+        status: Solved
+        is_visible: false
+      - offset: 501
+        length: 42
+        placeholder_text: // Get token from the authorization header
+        dependency:
+          section: Backend
+          lesson: Authentication
+          task: username_from_token
+          file: backend/src/middleware/auth.js
+          placeholder: 5
+        initial_state:
+          length: 42
+          offset: 501
+        initialized_from_dependency: false
+        encrypted_possible_answer: o4l03Nqsbxt0Lu86ovpFfxD9/uKUr1egaLWaZ/8hcBg=
+        selected: false
+        status: Solved
+        is_visible: false
+      - offset: 709
+        length: 35
+        placeholder_text: // Respond with the 401 status code
+        dependency:
+          section: Backend
+          lesson: Authentication
+          task: username_from_token
+          file: backend/src/middleware/auth.js
+          placeholder: 6
+        initial_state:
+          length: 35
+          offset: 709
+        initialized_from_dependency: false
+        encrypted_possible_answer: u7gPomk4r2dLr8deeU+Gd6UhfWCpqKNUc/P9eVVmr939v0UyxpMYP2TiLko3TAv1wNQEcZgbo764LiQGx+QHsoP0IjVLIseiIsiTAsLHj+c=
+        selected: false
+        status: Solved
+        is_visible: false
+      - offset: 770
+        length: 48
+        placeholder_text: // Get a decoded payload using jwt.verify method
+        dependency:
+          section: Backend
+          lesson: Authentication
+          task: username_from_token
+          file: backend/src/middleware/auth.js
+          placeholder: 7
+        initial_state:
+          length: 48
+          offset: 770
+        initialized_from_dependency: false
+        encrypted_possible_answer: pcgqLOXUQtMHItBc3Lle/tsX2vuINRaP2V/Y8d/FQqXuom0TIfWjWNtL1HfiddLQ
+        selected: false
+        status: Solved
+        is_visible: false
+      - offset: 846
+        length: 35
+        placeholder_text: // Get a user from the user service
+        dependency:
+          section: Backend
+          lesson: Authentication
+          task: username_from_token
+          file: backend/src/middleware/auth.js
+          placeholder: 8
+        initial_state:
+          length: 35
+          offset: 846
+        initialized_from_dependency: false
+        encrypted_possible_answer: JjQE7exVpH/1RQA/bJp2yHHqOj+OtJ8OjmTsHxLbaAtM/RewPGOztn5yh3j8/Khq
+        selected: false
+        status: Solved
+        is_visible: false
+      - offset: 916
+        length: 35
+        placeholder_text: // Respond with the 401 status code
+        dependency:
+          section: Backend
+          lesson: Authentication
+          task: username_from_token
+          file: backend/src/middleware/auth.js
+          placeholder: 9
+        initial_state:
+          length: 35
+          offset: 916
+        initialized_from_dependency: false
+        encrypted_possible_answer: u7gPomk4r2dLr8deeU+Gd6UhfWCpqKNUc/P9eVVmr90NQoYAf/VFNX8ZZQDUM8WZ/gk4OCuYE5oiw1ym0eIzwg==
+        selected: false
+        status: Solved
+        is_visible: false
+      - offset: 971
+        length: 40
+        placeholder_text: // Set the username property for the req
+        dependency:
+          section: Backend
+          lesson: Authentication
+          task: username_from_token
+          file: backend/src/middleware/auth.js
+          placeholder: 10
+        initial_state:
+          length: 40
+          offset: 971
+        initialized_from_dependency: false
+        encrypted_possible_answer: fN8oDPgzCJyTYfbBrYtQ23zxGpduMOLkFXei4YC3Ys12j/Iz1VFScablVMidqXbF
+        selected: false
+        status: Solved
+        is_visible: false
+      - offset: 1020
+        length: 21
+        placeholder_text: // Call `next` method
+        dependency:
+          section: Backend
+          lesson: Authentication
+          task: username_from_token
+          file: backend/src/middleware/auth.js
+          placeholder: 11
+        initial_state:
+          length: 21
+          offset: 1020
+        initialized_from_dependency: false
+        encrypted_possible_answer: hLCI3iLB1wd1cJ0hbvfJoQ==
+        selected: false
+        status: Solved
+        is_visible: false
+      - offset: 1217
+        length: 21
+        placeholder_text: // Retrieve the token
+        initial_state:
+          length: 21
+          offset: 1217
+        initialized_from_dependency: false
+        encrypted_possible_answer: 0mmBBBMoL7Nc05X5PO8e1Y/+9qf+f0TAlN+LOmQBbow=
+        selected: false
+        status: Solved
+      - offset: 1349
+        length: 48
+        placeholder_text: // Get a decoded payload using jwt.verify method
+        initial_state:
+          length: 48
+          offset: 1349
+        initialized_from_dependency: false
+        encrypted_possible_answer: pcgqLOXUQtMHItBc3Lle/tsX2vuINRaP2V/Y8d/FQqXuom0TIfWjWNtL1HfiddLQ
+        selected: false
+        status: Solved
+      - offset: 1425
+        length: 35
+        placeholder_text: // Get a user from the user service
+        initial_state:
+          length: 35
+          offset: 1425
+        initialized_from_dependency: false
+        encrypted_possible_answer: JjQE7exVpH/1RQA/bJp2yHHqOj+OtJ8OjmTsHxLbaAtM/RewPGOztn5yh3j8/Khq
+        selected: false
+        status: Solved
+      - offset: 1556
+        length: 43
+        placeholder_text: // Set the username property for the socket
+        initial_state:
+          length: 43
+          offset: 1556
+        initialized_from_dependency: false
+        encrypted_possible_answer: L5DjaaRjmXktxqSj6Rld0Bp98QlNmGzAytALpiCVfh8+c1CHb3Sr5J3wikqwgsID
+        selected: false
+        status: Solved
+    learner_created: false
+  - name: backend/src/routes/messages.js
+    visible: true
+    placeholders:
+      - offset: 479
+        length: 35
+        placeholder_text: const username = req.body.username;
+        dependency:
+          section: Backend
+          lesson: Authentication
+          task: username_from_token
+          file: backend/src/routes/messages.js
+          placeholder: 1
+        initial_state:
+          length: 35
+          offset: 479
+        initialized_from_dependency: false
+        encrypted_possible_answer: P18nt5FXkfW4WCAhWrCH8A==
+        selected: false
+        status: Solved
+        is_visible: false
+      - offset: 566
+        length: 104
+        placeholder_text: |-
+          if (!username) {
+                      return res.status(400).json({ message: 'Username is required' });
+                  }
+        dependency:
+          section: Backend
+          lesson: Authentication
+          task: username_from_token
+          file: backend/src/routes/messages.js
+          placeholder: 2
+        initial_state:
+          length: 104
+          offset: 566
+        initialized_from_dependency: false
+        encrypted_possible_answer: P18nt5FXkfW4WCAhWrCH8A==
+        selected: false
+        status: Solved
+        is_visible: false
+      - offset: 848
+        length: 8
+        placeholder_text: username
+        dependency:
+          section: Backend
+          lesson: Authentication
+          task: username_from_token
+          file: backend/src/routes/messages.js
+          placeholder: 3
+        initial_state:
+          length: 8
+          offset: 848
+        initialized_from_dependency: false
+        encrypted_possible_answer: orRg2It4nLovuGHGc3szeg==
+        selected: false
+        status: Solved
+        is_visible: false
+    learner_created: false
+  - name: images/jwt_logo_dark.svg
+    visible: false
+    learner_created: false
+  - name: images/jwt_logo.svg
+    visible: false
+    learner_created: false
+  - name: backend/src/data/dataServices.js
+    visible: true
+    learner_created: false
+  - name: backend/src/routes/auth.js
+    visible: true
+    placeholders:
+      - offset: 666
+        length: 34
+        placeholder_text: // Generate token for the username
+        dependency:
+          section: Backend
+          lesson: Authentication
+          task: username_from_token
+          file: backend/src/routes/auth.js
+          placeholder: 1
+        initial_state:
+          length: 34
+          offset: 666
+        initialized_from_dependency: false
+        encrypted_possible_answer: E2fytfz0OF88TkrzekfHp8p1E8xi3MS2V3wURXNqHjI=
+        selected: false
+        status: Solved
+        is_visible: false
+      - offset: 733
+        length: 35
+        placeholder_text: /* Add token key-value pair here */
+        dependency:
+          section: Backend
+          lesson: Authentication
+          task: username_from_token
+          file: backend/src/routes/auth.js
+          placeholder: 2
+        initial_state:
+          length: 35
+          offset: 733
+        initialized_from_dependency: false
+        encrypted_possible_answer: BdtNzR/1ZUXKdd/PKTv0Tw==
+        selected: false
+        status: Solved
+        is_visible: false
+      - offset: 1754
+        length: 34
+        placeholder_text: // Generate token for the username
+        dependency:
+          section: Backend
+          lesson: Authentication
+          task: username_from_token
+          file: backend/src/routes/auth.js
+          placeholder: 3
+        initial_state:
+          length: 34
+          offset: 1754
+        initialized_from_dependency: false
+        encrypted_possible_answer: E2fytfz0OF88TkrzekfHp8p1E8xi3MS2V3wURXNqHjI=
+        selected: false
+        status: Solved
+        is_visible: false
+      - offset: 1809
+        length: 35
+        placeholder_text: /* Add token key-value pair here */
+        dependency:
+          section: Backend
+          lesson: Authentication
+          task: username_from_token
+          file: backend/src/routes/auth.js
+          placeholder: 4
+        initial_state:
+          length: 35
+          offset: 1809
+        initialized_from_dependency: false
+        encrypted_possible_answer: BdtNzR/1ZUXKdd/PKTv0Tw==
+        selected: false
+        status: Solved
+        is_visible: false
+    learner_created: false
+  - name: backend/src/index.js
+    visible: true
+    placeholders:
+      - offset: 643
+        length: 34
+        placeholder_text: /* Add our auth middleware here */
+        dependency:
+          section: Backend
+          lesson: Authentication
+          task: username_from_token
+          file: backend/src/index.js
+          placeholder: 1
+        initial_state:
+          length: 34
+          offset: 643
+        initialized_from_dependency: false
+        encrypted_possible_answer: 0D96bXv6I4VqQDa0nq/MFOT0gJBkF3YvQPO0+MyltfM=
+        selected: false
+        status: Solved
+        is_visible: false
+    learner_created: false
+  - name: backend/src/socket.js
+    visible: true
+    placeholders:
+      - offset: 164
+        length: 37
+        placeholder_text: // Add authentication middleware here
+        initial_state:
+          length: 37
+          offset: 164
+        initialized_from_dependency: false
+        encrypted_possible_answer: OEp3nPYmI6ewVLwmqjhR0XpQaTRth1AO5HocO+FHe/g=
+        selected: false
+        status: Solved
+      - offset: 491
+        length: 13
+        placeholder_text: data.username
+        initial_state:
+          length: 13
+          offset: 491
+        initialized_from_dependency: false
+        encrypted_possible_answer: Sn5VYkO8dDdRS2PJG+3S4Q==
+        selected: false
+        status: Solved
+    learner_created: false
+  - name: backend/__tests__/auth.test.js
+    visible: true
+    learner_created: false
+  - name: backend/__tests__/socket.test.js
+    visible: true
+    learner_created: false
+  - name: backend/__tests__/messages.test.js
+    visible: true
+    learner_created: false
+  - name: backend/__tests__/dataServices.test.js
+    visible: true
+    learner_created: false
+  - name: backend/package.json
+    visible: true
+    learner_created: false
+  - name: frontend/src/App.css
+    visible: true
+    learner_created: false
+  - name: frontend/src/App.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/main.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/index.css
+    visible: true
+    learner_created: false
+  - name: frontend/src/components/Tile.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/components/Login.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/components/Register.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/components/GetMessages.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/components/PostMessage.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/components/DeleteMessage.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/components/WebSocketDelete.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/components/WebSocketSender.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/components/WebSocketMessages.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/public/academy.svg
+    visible: true
+    learner_created: false
+  - name: frontend/index.html
+    visible: true
+    learner_created: false
+  - name: frontend/package.json
+    visible: true
+    learner_created: false
+  - name: frontend/vite.config.js
+    visible: true
+    learner_created: false
+  - name: package.json
+    visible: true
+    learner_created: false
+  - name: backend/scripts/generateSecret.js
+    visible: true
+    learner_created: false
+  - name: backend/.env
+    visible: true
+    placeholders:
+      - offset: 11
+        length: 44
+        placeholder_text: update_this_with_the_actual_secret_key_value
+        dependency:
+          section: Backend
+          lesson: Authentication
+          task: username_from_token
+          file: backend/.env
+          placeholder: 1
+        initial_state:
+          length: 44
+          offset: 11
+        initialized_from_dependency: false
+        encrypted_possible_answer: zMgelSc+ls+vjgJtrJ6vD1BfUXHX9WvLtxlt9AaBmVschN7KDffhvkoHi2PjpiqqhCYRevksFpTR+wtgOiieNRIfntsP07tcu+QVObKDKV/2pfPa3ISI6KQe2qzMEBeG
+        selected: false
+        status: Solved
+        is_visible: false
+    learner_created: false
+  - name: images/routes_auth.gif
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: images/username_from_token.gif
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: test/test.js
+    visible: false
+    learner_created: false
+  - name: images/sockets_auth.gif
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: images/run.svg
+    visible: false
+    learner_created: false
+  - name: images/run_dark.svg
+    visible: false
+    learner_created: false
+  - name: images/run_script.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: images/run_script_dark.png
+    visible: false
+    is_binary: true
+    learner_created: false
+status: Solved
+record: -1

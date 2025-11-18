@@ -1,0 +1,35 @@
+type: theory
+custom_name: Dive into JSX
+files:
+  - name: frontend/src/App.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/assets/academy.svg
+    visible: true
+    learner_created: false
+  - name: frontend/src/main.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/index.css
+    visible: true
+    learner_created: false
+  - name: frontend/index.html
+    visible: true
+    learner_created: false
+  - name: frontend/package.json
+    visible: true
+    learner_created: false
+  - name: frontend/vite.config.js
+    visible: true
+    learner_created: false
+  - name: images/echo.gif
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: images/echo_boring.gif
+    visible: false
+    is_binary: true
+    learner_created: false
+status: Solved
+record: -1
+post_submission_on_open: true

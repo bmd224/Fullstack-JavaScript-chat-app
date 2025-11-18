@@ -1,0 +1,166 @@
+type: edu
+custom_name: WebSockets support
+files:
+  - name: frontend/src/pages/Chat.jsx
+    visible: true
+    placeholders:
+      - offset: 333
+        length: 138
+        placeholder_text: // close the socket here
+        initial_state:
+          length: 24
+          offset: 333
+        initialized_from_dependency: false
+        encrypted_possible_answer: qmgXyPtDUp1gGyvD1HkxAZYVxy9nv4LvFntXvKC9bQ8=
+        selected: true
+        status: Solved
+      - offset: 1060
+        length: 163
+        placeholder_text: // create a new socket with auth data
+        initial_state:
+          length: 37
+          offset: 946
+        initialized_from_dependency: false
+        encrypted_possible_answer: c8hRgpNaDRWYaZb64eep2o65rluoHPIVmpBfnFnUeUISoVXEWw1iG8zmuAzcy5w44zjA86uW1XuzURr+4WURF3PmEVp0YrV18IbG+D8labfiJKGE87w8XR9lkxz5Ls5s6eqx29SY7v4JUGM+lCAXMezC0vqPz9dMHKd4zjkkJWY=
+        selected: true
+        status: Solved
+      - offset: 1411
+        length: 97
+        placeholder_text: // add a new message to the `messages` array
+        initial_state:
+          length: 44
+          offset: 1171
+        initialized_from_dependency: false
+        encrypted_possible_answer: jzR5KbD8vosg27ZISzKJleu1Tr1LYFm8wXN7OU+dM9eIjk8wa4WJ90vADYM5OPGS
+        selected: true
+        status: Solved
+      - offset: 1538
+        length: 63
+        placeholder_text: // save a newSocket to the socket variable
+        initial_state:
+          length: 42
+          offset: 1245
+        initialized_from_dependency: false
+        encrypted_possible_answer: s15HlgNwa0j6bZ8Gcqz8SKSqj8NXf900DTRIS+7T8FQ=
+        selected: true
+        status: Solved
+      - offset: 1957
+        length: 47
+        placeholder_text: |-
+          const token = localStorage.getItem('token');
+                      await axios.post('/api/messages',
+                          {content: newMessage},
+                          {headers: {Authorization: `Bearer ${token}`}}
+                      );
+        initial_state:
+          length: 206
+          offset: 1581
+        initialized_from_dependency: false
+        encrypted_possible_answer: XwzNIF81JgLg5RS1B/2d0tqP+rAzhsFYu3jadBcfoc4hkXTWnNco6yeuqayydonOmJNFJm6mvSiqJfG2BolYqg==
+        selected: false
+        status: Solved
+    learner_created: false
+  - name: test/test.jsx
+    visible: false
+    learner_created: false
+  - name: backend/src/data/dbConfig.js
+    visible: true
+    learner_created: false
+  - name: backend/src/data/dataServices.js
+    visible: true
+    learner_created: false
+  - name: backend/src/routes/auth.js
+    visible: true
+    learner_created: false
+  - name: backend/src/routes/messages.js
+    visible: true
+    learner_created: false
+  - name: backend/src/index.js
+    visible: true
+    learner_created: false
+  - name: backend/src/socket.js
+    visible: true
+    learner_created: false
+  - name: backend/src/middleware/auth.js
+    visible: true
+    learner_created: false
+  - name: backend/scripts/generateSecret.js
+    visible: true
+    learner_created: false
+  - name: backend/__tests__/auth.test.js
+    visible: true
+    learner_created: false
+  - name: backend/__tests__/socket.test.js
+    visible: true
+    learner_created: false
+  - name: backend/__tests__/messages.test.js
+    visible: true
+    learner_created: false
+  - name: backend/__tests__/dataServices.test.js
+    visible: true
+    learner_created: false
+  - name: backend/package.json
+    visible: true
+    learner_created: false
+  - name: backend/jest.setup.js
+    visible: true
+    learner_created: false
+  - name: backend/database.sqlite
+    visible: true
+    is_binary: true
+    learner_created: false
+  - name: frontend/src/pages/Login.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/pages/Register.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/assets/academy.svg
+    visible: true
+    learner_created: false
+  - name: frontend/src/App.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/main.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/index.css
+    visible: true
+    learner_created: false
+  - name: frontend/__tests__/chat_test.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/__tests__/login_test.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/__tests__/token_test.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/__tests__/register_test.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/index.html
+    visible: true
+    learner_created: false
+  - name: frontend/package.json
+    visible: true
+    learner_created: false
+  - name: frontend/vite.config.js
+    visible: true
+    learner_created: false
+  - name: package.json
+    visible: true
+    learner_created: false
+  - name: images/sending_sockets.gif
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: images/multiple_users.gif
+    visible: false
+    is_binary: true
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 14 Nov 2025 22:48:02 UTC"
+record: -1

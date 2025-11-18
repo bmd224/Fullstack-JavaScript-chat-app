@@ -1,0 +1,253 @@
+type: edu
+custom_name: Database integration
+files:
+  - name: test/test.js
+    visible: false
+    learner_created: false
+  - name: backend/src/data/dataServices.js
+    visible: true
+    placeholders:
+      - offset: 660
+        length: 253
+        placeholder_text: // Add the username field here
+        initial_state:
+          length: 30
+          offset: 659
+        initialized_from_dependency: false
+        encrypted_possible_answer: fhVljl9B7rHgN2rX0edvGyQZfqiGQQiL9SniUF/Q5qd/pvXgbz9xfKb2WW1ZWXfXApi+CpIwQ3wHR8e0zzHC1KzIwoxkl+9OnhKezXUxwSWVpYqEd+ahDfn1nlkf/Uf7
+        selected: true
+        status: Solved
+        student_answer: |-
+          // username field definition
+                  username: {
+                      type: DataTypes.STRING,
+                      allowNull: false
+                  },
+          
+                  // content field definition
+                  content: {
+                      type: DataTypes.TEXT,
+                      allowNull: false
+                  }
+      - offset: 914
+        length: 0
+        placeholder_text: // Add the content field here
+        initial_state:
+          length: 29
+          offset: 698
+        initialized_from_dependency: false
+        encrypted_possible_answer: lQ535lzzmFoHnd56ibn8Gg/vejy3J1X+mnApAf62oW/OL1IYdZqrU85cKA9/cyAnNxUsSV2Xv8yYvOZHHfYqmegM3TFs6uasBSTqeG8nABerQ2jGfECiInp4Y9+X4KNy
+        selected: true
+        status: Solved
+      - offset: 1148
+        length: 24
+        placeholder_text: /* Try to find a user by the username */
+        initial_state:
+          length: 40
+          offset: 906
+        initialized_from_dependency: false
+        encrypted_possible_answer: fcVp4oeQfQQ+9LRKNn9iORpVpTmNJqyuIwt5mevD2to=
+        selected: false
+        status: Solved
+        student_answer: Users.findByPk(username)
+      - offset: 1301
+        length: 84
+        placeholder_text: // Create a new user
+        initial_state:
+          length: 20
+          offset: 1030
+        initialized_from_dependency: false
+        encrypted_possible_answer: 0IN6MkF/pdUuVp37ZzK3IDOkL6qM+ahFjy7UHWFOpoixm19ydfG6Qr4PfiNJD+AC8Vf0/1OyTOoUc2b+/uFbgA==
+        selected: true
+        status: Solved
+        student_answer: |-
+          Users.create({
+                      username,
+                      password: hashedPassword
+                  })
+      - offset: 1483
+        length: 55
+        placeholder_text: // Find a user by the username
+        initial_state:
+          length: 30
+          offset: 1148
+        initialized_from_dependency: false
+        encrypted_possible_answer: fcVp4oeQfQQ+9LRKNn9iObrJf5H+F4rrGY6mhKeEWs0=
+        selected: true
+        status: Solved
+        student_answer: Users.findByPk(username) // Find a user by the username
+      - offset: 1547
+        length: 102
+        placeholder_text: // Return the plain object or `undefined`
+        initial_state:
+          length: 41
+          offset: 1187
+        initialized_from_dependency: false
+        encrypted_possible_answer: 33MBvm+sxSt0L1gCiorz6FNlGonByDN/S6dl3ATDnWA76Y2CJITi4phFbckVUNMeFP3c+jOEGHLwIM7SALKefA==
+        selected: true
+        status: Solved
+        student_answer: |-
+          // Return the plain object or `undefined`
+                  return user ? user.get({ plain: true }) : undefined;
+      - offset: 1749
+        length: 138
+        placeholder_text: // Add a new message to the database
+        initial_state:
+          length: 36
+          offset: 1328
+        initialized_from_dependency: false
+        encrypted_possible_answer: oQVsGWQDRL3sHxn2yRObOeeh+diabQMoOpMAuLOiOpVVHyuVaTTBXr6IT3PI8EzOxnbS9mFe7+VcAfC9kvwX68LjeCWD6p8JnO04GFjPvjmrxweuYFl8hSfU30FLODcN
+        selected: true
+        status: Solved
+        student_answer: |-
+          // Add a new message to the database
+                  const message = await Messages.create({
+                      username,
+                      content
+                  });
+      - offset: 1896
+        length: 86
+        placeholder_text: // Return added record as a plain JS object
+        initial_state:
+          length: 43
+          offset: 1373
+        initialized_from_dependency: false
+        encrypted_possible_answer: jeW5RbFLJ5VIUBIzPl7Op7XNhdZjbRApx1ZVD2taLvSn1UeNZsRoHIgVGYR3y2sQ
+        selected: true
+        status: Solved
+        student_answer: |-
+          // Return added record as a plain JS object
+                  return message.get({plain: true});
+      - offset: 2042
+        length: 73
+        placeholder_text: // Retrieve all messages from the database
+        initial_state:
+          length: 42
+          offset: 1477
+        initialized_from_dependency: false
+        encrypted_possible_answer: ZbHSq0OTgYPtrhOLGdfMii4e/FW8PaVKvplZITNIhJk=
+        selected: true
+        status: Solved
+        student_answer: " Messages.findAll({raw: true});// Retrieve all messages from\
+      \ the database"
+      - offset: 2195
+        length: 151
+        placeholder_text: // Delete the message with the id equals messageId
+        initial_state:
+          length: 50
+          offset: 1599
+        initialized_from_dependency: false
+        encrypted_possible_answer: fuDhruZ3D+RNR48Lno8zpcwX3e9uxbk4VgFvrO+yMSobofcQCiOTPoJFm/9rm62tPALBN5619BMQUj3aBEQ2FBZCKbzMnDQG2L3bhOhD3M3iry3jgVsnysN4JKHiwbsjUvRAfHfUaT70CEhXk85WCNx5o6aiaZPfwsTGFDNjsQ8=
+        selected: true
+        status: Solved
+        student_answer: |-
+          // Delete the message with the id equals messageId
+                  const deletedCount = await Messages.destroy({
+                      where: {id: messageId}
+                  });
+    learner_created: false
+  - name: backend/src/routes/auth.js
+    visible: true
+    learner_created: false
+  - name: backend/src/routes/messages.js
+    visible: true
+    learner_created: false
+  - name: backend/src/socket.js
+    visible: true
+    learner_created: false
+  - name: backend/src/middleware/auth.js
+    visible: true
+    learner_created: false
+  - name: backend/scripts/generateSecret.js
+    visible: true
+    learner_created: false
+  - name: backend/__tests__/auth.test.js
+    visible: true
+    learner_created: false
+  - name: backend/__tests__/socket.test.js
+    visible: true
+    learner_created: false
+  - name: backend/__tests__/messages.test.js
+    visible: true
+    learner_created: false
+  - name: backend/__tests__/dataServices.test.js
+    visible: true
+    learner_created: false
+  - name: backend/package.json
+    visible: true
+    learner_created: false
+  - name: frontend/src/App.css
+    visible: true
+    learner_created: false
+  - name: frontend/src/App.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/main.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/index.css
+    visible: true
+    learner_created: false
+  - name: frontend/src/components/Tile.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/components/Login.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/components/Register.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/components/GetMessages.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/components/PostMessage.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/components/DeleteMessage.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/components/WebSocketDelete.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/components/WebSocketSender.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/components/WebSocketMessages.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/public/academy.svg
+    visible: true
+    learner_created: false
+  - name: frontend/index.html
+    visible: true
+    learner_created: false
+  - name: frontend/package.json
+    visible: true
+    learner_created: false
+  - name: frontend/vite.config.js
+    visible: true
+    learner_created: false
+  - name: package.json
+    visible: true
+    learner_created: false
+  - name: backend/src/index.js
+    visible: true
+    learner_created: false
+  - name: backend/src/data/dbConfig.js
+    visible: true
+    learner_created: false
+  - name: backend/jest.setup.js
+    visible: true
+    learner_created: false
+  - name: backend/.env
+    visible: true
+    learner_created: false
+  - name: images/breathtaking.gif
+    visible: false
+    is_binary: true
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 14 Nov 2025 20:22:14 UTC"
+record: 15

@@ -1,0 +1,48 @@
+type: theory
+custom_name: Hello world
+files:
+  - name: src/index.js
+    visible: true
+    learner_created: false
+  - name: package.json
+    visible: true
+    learner_created: false
+  - name: images/http_codes.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: images/http_codes_dark.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: images/run_dark.svg
+    visible: false
+    learner_created: false
+  - name: images/run.svg
+    visible: false
+    learner_created: false
+  - name: images/npm_start_log.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: images/npm_start_log_dark.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: images/script_start_dark.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: images/script_start.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: images/stop_dark.svg
+    visible: false
+    learner_created: false
+  - name: images/stop.svg
+    visible: false
+    learner_created: false
+status: Solved
+record: -1
+post_submission_on_open: true

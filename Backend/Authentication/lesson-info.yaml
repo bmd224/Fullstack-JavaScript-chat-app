@@ -1,0 +1,8 @@
+type: framework
+content:
+  - lesson_overview
+  - secret_key
+  - adding_authentication
+  - username_from_token
+  - websockets_authentication
+current_task: 4

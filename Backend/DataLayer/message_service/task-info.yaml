@@ -1,0 +1,124 @@
+type: edu
+custom_name: Message service
+files:
+  - name: images/storage_boxes_dark.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: images/storage_boxes.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: images/save_fetch_message.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: images/save_fetch_message_dark.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: backend/src/data/dataServices.js
+    visible: true
+    placeholders:
+      - offset: 590
+        length: 9
+        placeholder_text: undefined
+        dependency:
+          section: Backend
+          lesson: DataLayer
+          task: create_user
+          file: backend/src/data/dataServices.js
+          placeholder: 1
+        initial_state:
+          length: 9
+          offset: 590
+        initialized_from_dependency: false
+        encrypted_possible_answer: 5wnjgsFXiigkVY1VXpvx8ioDDAx6vbLFyor6WFNXN6Q=
+        selected: false
+        status: Solved
+        is_visible: false
+      - offset: 717
+        length: 24
+        placeholder_text: /* create the message */
+        initial_state:
+          length: 24
+          offset: 717
+        initialized_from_dependency: false
+        encrypted_possible_answer: +/3Ib5AOj5qkoEd38G4FHulwci4i8IgHwyMTz+gQeHTc6bo+/+YL8gmg5yCeZ3RMoInQTil4yO1oUpYV511AyaK7WFdu51ic2XX+piL5fpGp1LdpVd6JiIABetQaO5UG
+        selected: false
+        status: Solved
+      - offset: 752
+        length: 24
+        placeholder_text: // add it to the storage
+        initial_state:
+          length: 24
+          offset: 752
+        initialized_from_dependency: false
+        encrypted_possible_answer: BmrB8E3M/iEgxK3RXQwqqN0xv5mvsTaAVyh1DEMpGto=
+        selected: false
+        status: Solved
+      - offset: 855
+        length: 2
+        placeholder_text: "[]"
+        initial_state:
+          length: 2
+          offset: 855
+        initialized_from_dependency: false
+        encrypted_possible_answer: FY2TPx880s8sKnhrR7hjJA==
+        selected: false
+        status: Solved
+      - offset: 938
+        length: 53
+        placeholder_text: // delete the message with messageId from the storage
+        initial_state:
+          length: 53
+          offset: 938
+        initialized_from_dependency: false
+        encrypted_possible_answer: XrCt0zhusDioLzU94alm35fgKsPtl0s0So+Jrh4E4MGsk1tkvk571YFKb8NAM5K3AHBIHqxoO9+Zo9ywTfGhdpbbclUZMWHadx8YhKID2b8Si0UJZ4vafkvQ7RKbzoUed7gl9YOERM/DNbTTnJMajmXwzaZrTw1kak1WFqU82JYGVlaS+pB53dDNJRpwZQEZapalUjt3GcOxuwPwejgjGPH1+4sowUZHWntcejReOe8PYssNg5ln/QTJyQgxsBdm
+        selected: false
+        status: Solved
+    learner_created: false
+  - name: frontend/src/App.css
+    visible: true
+    learner_created: false
+  - name: frontend/src/App.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/main.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/index.css
+    visible: true
+    learner_created: false
+  - name: frontend/src/components/Tile.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/public/academy.svg
+    visible: true
+    learner_created: false
+  - name: frontend/index.html
+    visible: true
+    learner_created: false
+  - name: frontend/package.json
+    visible: true
+    learner_created: false
+  - name: frontend/vite.config.js
+    visible: true
+    learner_created: false
+  - name: backend/package.json
+    visible: true
+    learner_created: false
+  - name: package.json
+    visible: true
+    learner_created: false
+  - name: backend/src/index.js
+    visible: true
+    learner_created: false
+  - name: backend/__tests__/dataServices.test.js
+    visible: true
+    learner_created: false
+  - name: test/test.js
+    visible: false
+    learner_created: false
+status: Solved
+record: -1

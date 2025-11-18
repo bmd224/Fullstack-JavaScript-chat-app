@@ -1,0 +1,17 @@
+type: theory
+custom_name: Lesson overview
+files:
+  - name: task.js
+    visible: true
+    learner_created: false
+  - name: images/websocket_dark.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: images/websocket.png
+    visible: false
+    is_binary: true
+    learner_created: false
+status: Solved
+record: -1
+post_submission_on_open: true

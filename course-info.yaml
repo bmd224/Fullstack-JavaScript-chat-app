@@ -1,0 +1,25 @@
+type: marketplace
+title: (AWS) Full-Stack JavaScript for Beginners
+language: English
+summary: "<p>Build a real-time chat app for your portfolio while mastering full-stack\
+  \ web development! Learn Node.js, Express.js, and React. Hands-on and easy to follow\
+  \ — ideal for beginners.</p>"
+programming_language: JavaScript
+content:
+  - Introduction
+  - Backend
+  - Frontend
+  - Deploy
+  - Feedback
+additional_files:
+  - name: package.json
+  - name: utils/utils.js
+  - name: README.md
+  - name: LICENSE
+  - name: jest.config.js
+  - name: jsconfig.json
+  - name: run/Template Jest.run.xml
+  - name: .env
+  - name: babel.config.cjs
+mode: Study
+yaml_version: 5

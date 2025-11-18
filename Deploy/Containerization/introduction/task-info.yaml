@@ -1,0 +1,9 @@
+type: theory
+custom_name: Introduction
+files:
+  - name: task.js
+    visible: true
+    learner_created: false
+status: Solved
+record: -1
+post_submission_on_open: true

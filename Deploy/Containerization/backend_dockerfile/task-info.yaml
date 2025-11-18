@@ -1,0 +1,58 @@
+type: theory
+custom_name: Backend Dockerfile
+files:
+  - name: backend/src/data/dbConfig.js
+    visible: true
+    learner_created: false
+  - name: backend/src/data/dataServices.js
+    visible: true
+    learner_created: false
+  - name: backend/src/routes/auth.js
+    visible: true
+    learner_created: false
+  - name: backend/src/routes/messages.js
+    visible: true
+    learner_created: false
+  - name: backend/src/index.js
+    visible: true
+    learner_created: false
+  - name: backend/src/socket.js
+    visible: true
+    learner_created: false
+  - name: backend/src/middleware/auth.js
+    visible: true
+    learner_created: false
+  - name: backend/scripts/generateSecret.js
+    visible: true
+    learner_created: false
+  - name: backend/__tests__/auth.test.js
+    visible: true
+    learner_created: false
+  - name: backend/__tests__/socket.test.js
+    visible: true
+    learner_created: false
+  - name: backend/__tests__/messages.test.js
+    visible: true
+    learner_created: false
+  - name: backend/__tests__/dataServices.test.js
+    visible: true
+    learner_created: false
+  - name: backend/package.json
+    visible: true
+    learner_created: false
+  - name: backend/jest.setup.js
+    visible: true
+    learner_created: false
+  - name: backend/data/database.sqlite
+    visible: true
+    is_binary: true
+    learner_created: false
+  - name: .env
+    visible: true
+    learner_created: false
+  - name: backend/Dockerfile
+    visible: true
+    learner_created: false
+status: Solved
+record: -1
+post_submission_on_open: true

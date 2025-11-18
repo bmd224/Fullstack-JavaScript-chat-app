@@ -1,0 +1,292 @@
+type: theory
+custom_name: A look inside the database
+files:
+  - name: backend/src/data/dataServices.js
+    visible: true
+    placeholders:
+      - offset: 659
+        length: 30
+        placeholder_text: // Add the username field here
+        dependency:
+          section: Backend
+          lesson: Database
+          task: database_integration
+          file: backend/src/data/dataServices.js
+          placeholder: 1
+        initial_state:
+          length: 30
+          offset: 659
+        initialized_from_dependency: false
+        encrypted_possible_answer: fhVljl9B7rHgN2rX0edvGyQZfqiGQQiL9SniUF/Q5qd/pvXgbz9xfKb2WW1ZWXfXApi+CpIwQ3wHR8e0zzHC1KzIwoxkl+9OnhKezXUxwSWVpYqEd+ahDfn1nlkf/Uf7
+        selected: false
+        status: Solved
+        is_visible: false
+      - offset: 698
+        length: 29
+        placeholder_text: // Add the content field here
+        dependency:
+          section: Backend
+          lesson: Database
+          task: database_integration
+          file: backend/src/data/dataServices.js
+          placeholder: 2
+        initial_state:
+          length: 29
+          offset: 698
+        initialized_from_dependency: false
+        encrypted_possible_answer: lQ535lzzmFoHnd56ibn8Gg/vejy3J1X+mnApAf62oW/OL1IYdZqrU85cKA9/cyAnNxUsSV2Xv8yYvOZHHfYqmegM3TFs6uasBSTqeG8nABerQ2jGfECiInp4Y9+X4KNy
+        selected: false
+        status: Solved
+        is_visible: false
+      - offset: 906
+        length: 40
+        placeholder_text: /* Try to find a user by the username */
+        dependency:
+          section: Backend
+          lesson: Database
+          task: database_integration
+          file: backend/src/data/dataServices.js
+          placeholder: 3
+        initial_state:
+          length: 40
+          offset: 906
+        initialized_from_dependency: false
+        encrypted_possible_answer: fcVp4oeQfQQ+9LRKNn9iORpVpTmNJqyuIwt5mevD2to=
+        selected: false
+        status: Solved
+        is_visible: false
+      - offset: 1030
+        length: 20
+        placeholder_text: // Create a new user
+        dependency:
+          section: Backend
+          lesson: Database
+          task: database_integration
+          file: backend/src/data/dataServices.js
+          placeholder: 4
+        initial_state:
+          length: 20
+          offset: 1030
+        initialized_from_dependency: false
+        encrypted_possible_answer: 0IN6MkF/pdUuVp37ZzK3IDOkL6qM+ahFjy7UHWFOpoixm19ydfG6Qr4PfiNJD+AC8Vf0/1OyTOoUc2b+/uFbgA==
+        selected: false
+        status: Solved
+        is_visible: false
+      - offset: 1148
+        length: 30
+        placeholder_text: // Find a user by the username
+        dependency:
+          section: Backend
+          lesson: Database
+          task: database_integration
+          file: backend/src/data/dataServices.js
+          placeholder: 5
+        initial_state:
+          length: 30
+          offset: 1148
+        initialized_from_dependency: false
+        encrypted_possible_answer: fcVp4oeQfQQ+9LRKNn9iObrJf5H+F4rrGY6mhKeEWs0=
+        selected: false
+        status: Solved
+        is_visible: false
+      - offset: 1187
+        length: 41
+        placeholder_text: // Return the plain object or `undefined`
+        dependency:
+          section: Backend
+          lesson: Database
+          task: database_integration
+          file: backend/src/data/dataServices.js
+          placeholder: 6
+        initial_state:
+          length: 41
+          offset: 1187
+        initialized_from_dependency: false
+        encrypted_possible_answer: 33MBvm+sxSt0L1gCiorz6FNlGonByDN/S6dl3ATDnWA76Y2CJITi4phFbckVUNMeFP3c+jOEGHLwIM7SALKefA==
+        selected: false
+        status: Solved
+        is_visible: false
+      - offset: 1328
+        length: 36
+        placeholder_text: // Add a new message to the database
+        dependency:
+          section: Backend
+          lesson: Database
+          task: database_integration
+          file: backend/src/data/dataServices.js
+          placeholder: 7
+        initial_state:
+          length: 36
+          offset: 1328
+        initialized_from_dependency: false
+        encrypted_possible_answer: oQVsGWQDRL3sHxn2yRObOeeh+diabQMoOpMAuLOiOpVVHyuVaTTBXr6IT3PI8EzOxnbS9mFe7+VcAfC9kvwX68LjeCWD6p8JnO04GFjPvjmrxweuYFl8hSfU30FLODcN
+        selected: false
+        status: Solved
+        is_visible: false
+      - offset: 1373
+        length: 43
+        placeholder_text: // Return added record as a plain JS object
+        dependency:
+          section: Backend
+          lesson: Database
+          task: database_integration
+          file: backend/src/data/dataServices.js
+          placeholder: 8
+        initial_state:
+          length: 43
+          offset: 1373
+        initialized_from_dependency: false
+        encrypted_possible_answer: jeW5RbFLJ5VIUBIzPl7Op7XNhdZjbRApx1ZVD2taLvSn1UeNZsRoHIgVGYR3y2sQ
+        selected: false
+        status: Solved
+        is_visible: false
+      - offset: 1477
+        length: 42
+        placeholder_text: // Retrieve all messages from the database
+        dependency:
+          section: Backend
+          lesson: Database
+          task: database_integration
+          file: backend/src/data/dataServices.js
+          placeholder: 9
+        initial_state:
+          length: 42
+          offset: 1477
+        initialized_from_dependency: false
+        encrypted_possible_answer: ZbHSq0OTgYPtrhOLGdfMii4e/FW8PaVKvplZITNIhJk=
+        selected: false
+        status: Solved
+        is_visible: false
+      - offset: 1599
+        length: 50
+        placeholder_text: // Delete the message with the id equals messageId
+        dependency:
+          section: Backend
+          lesson: Database
+          task: database_integration
+          file: backend/src/data/dataServices.js
+          placeholder: 10
+        initial_state:
+          length: 50
+          offset: 1599
+        initialized_from_dependency: false
+        encrypted_possible_answer: fuDhruZ3D+RNR48Lno8zpcwX3e9uxbk4VgFvrO+yMSobofcQCiOTPoJFm/9rm62tPALBN5619BMQUj3aBEQ2FBZCKbzMnDQG2L3bhOhD3M3iry3jgVsnysN4JKHiwbsjUvRAfHfUaT70CEhXk85WCNx5o6aiaZPfwsTGFDNjsQ8=
+        selected: false
+        status: Solved
+        is_visible: false
+    learner_created: false
+  - name: backend/src/routes/auth.js
+    visible: true
+    learner_created: false
+  - name: backend/src/routes/messages.js
+    visible: true
+    learner_created: false
+  - name: backend/src/socket.js
+    visible: true
+    learner_created: false
+  - name: backend/src/middleware/auth.js
+    visible: true
+    learner_created: false
+  - name: backend/scripts/generateSecret.js
+    visible: true
+    learner_created: false
+  - name: backend/__tests__/auth.test.js
+    visible: true
+    learner_created: false
+  - name: backend/__tests__/socket.test.js
+    visible: true
+    learner_created: false
+  - name: backend/__tests__/messages.test.js
+    visible: true
+    learner_created: false
+  - name: backend/__tests__/dataServices.test.js
+    visible: true
+    learner_created: false
+  - name: backend/package.json
+    visible: true
+    learner_created: false
+  - name: frontend/src/App.css
+    visible: true
+    learner_created: false
+  - name: frontend/src/App.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/main.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/index.css
+    visible: true
+    learner_created: false
+  - name: frontend/src/components/Tile.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/components/Login.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/components/Register.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/components/GetMessages.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/components/PostMessage.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/components/DeleteMessage.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/components/WebSocketDelete.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/components/WebSocketSender.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/src/components/WebSocketMessages.jsx
+    visible: true
+    learner_created: false
+  - name: frontend/public/academy.svg
+    visible: true
+    learner_created: false
+  - name: frontend/index.html
+    visible: true
+    learner_created: false
+  - name: frontend/package.json
+    visible: true
+    learner_created: false
+  - name: frontend/vite.config.js
+    visible: true
+    learner_created: false
+  - name: package.json
+    visible: true
+    learner_created: false
+  - name: backend/src/index.js
+    visible: true
+    learner_created: false
+  - name: backend/src/data/dbConfig.js
+    visible: true
+    learner_created: false
+  - name: backend/jest.setup.js
+    visible: true
+    learner_created: false
+  - name: backend/.env
+    visible: true
+    learner_created: false
+  - name: backend/database.sqlite
+    visible: true
+    is_binary: true
+    learner_created: false
+  - name: images/database_tool_dark.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: images/database_tool.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: images/breathtaking.gif
+    visible: false
+    is_binary: true
+    learner_created: false
+status: Solved
+record: -1
+post_submission_on_open: true
